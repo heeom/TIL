@@ -28,15 +28,12 @@ docker login
 docker tag hello-world:latest heeom/hello-world:latest
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/72038517-8ad4-4bad-a50e-fa0deed31c0b/669ab9d9-f89d-4702-9bb3-c878149f5291/image.png)
-
 ### public 저장소에 push
 
 ```bash
 docker push heeom/hello-world:latest
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/72038517-8ad4-4bad-a50e-fa0deed31c0b/69542986-dbfc-4598-b54e-4e4436226530/image.png)
 
 ## Docker Registry를 사용해서 Private Registry 구축하기
 
@@ -54,7 +51,6 @@ $ docker run -d -p 5001:5000 --restart always --name registry registry:2
 docker tag hello-world:latest localhost:5001/hello-world:latest
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/72038517-8ad4-4bad-a50e-fa0deed31c0b/833f32ea-88c3-4ab4-8f17-2ac5317531f5/image.png)
 
 ### Private registry에 image 푸시하기
 
@@ -62,7 +58,6 @@ docker tag hello-world:latest localhost:5001/hello-world:latest
 docker push localhost:5001/hello-world:latest
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/72038517-8ad4-4bad-a50e-fa0deed31c0b/bdb19bc2-1421-416d-b1b9-13233d392f19/image.png)
 
 ### Private Registry의 image 접근
 
