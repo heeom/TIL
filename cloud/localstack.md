@@ -8,7 +8,8 @@ AWS Simple Queue Service를 로컬 환경에서 사용하기 위해 LocalStack �
 ### docker-compose.yml 파일 생성
 
 ```yaml
-**version: "3.8"
+
+version: "3.8"
 services:
   localstack:
     container_name: "localstack"
@@ -24,7 +25,7 @@ services:
       - AWS_SECRET_ACCESS_KEY=1234
       - AWS_DEFAULT_REGION=us-east-1
     ports:
-      - '4566:4566'**
+      - '4566:4566'
 
 ```
 
