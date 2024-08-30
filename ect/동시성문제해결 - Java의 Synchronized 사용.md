@@ -51,7 +51,7 @@ public synchronized void decrease(Long id, Long quantity) {
 
 synchronized를 사용해도 해당 테스트 코드의 결과는 실패하는데, 이유는 @Transactional의 동작 방식에 있다. 작업 중인 스레드가 커밋되기 전에 다른 스레드가 decrease 메서드에 접근하기 때문에 여전히 문제가 발생한다. @Transactional 을 주석 처리하고 다시 테스트를 실행하면 성공한다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/72038517-8ad4-4bad-a50e-fa0deed31c0b/01394349-ed66-4f5c-b959-e2a100e5eb9b/image.png)
+<img src="https://github.com/user-attachments/assets/617e5e6b-d813-4b64-8c12-ea015f0143b7" width="400" height="100"/>
 
 Synchronized를 사용했을 때 문제점도 알아보자.
 
