@@ -6,7 +6,7 @@
 
 ### ExecutorService - ThreadPoolExecutor
 
-``` bash
+``` shell
 ExecutorService executorService = new ThreadPoolExecutor(2,2,0, TimeUnit.MILLISECONDS, new LinkedBlockingDeque<>());
         log("== 초기 상태 ==");
         printState(executorService);
@@ -18,7 +18,7 @@ ExecutorService executorService = new ThreadPoolExecutor(2,2,0, TimeUnit.MILLISE
         printState(executorService);
 ```
 
-```bash
+```shell
 > Task :ExecutorBasicMain.main()
 22:11:35.043 [     main] == 초기 상태 ==
 22:11:35.062 [     main] [pool=0, active = 0, queueTasks = 0, completedTask = 0
@@ -54,13 +54,13 @@ ExecutorService executorService = new ThreadPoolExecutor(2,2,0, TimeUnit.MILLISE
 - keepAliveTime, TimeUnit unit : 기본 스레드 수를 초과해서 만들어진 스레드가 생존할 수 있는 대기 시간. (이 시간 동안 처리할 작업이 없으면 초과스레드는 제거됨)
 - BlockingQueue : 작업을 보관할 블로킹 큐
 
-```bash
+```shell
 new ThreadPoolExecutor(2,2,0, TimeUnit.MILLISECONDS, new LinkedBlockingDeque<>());
 ```
 
 - corePoolSize = 2, maximumPoolSize=2, 블로킹 큐는 무한대로 저장 가능
 
-```bash
+```shell
 22:11:35.043 [     main] == 초기 상태 ==
 22:11:35.062 [     main] [pool=0, active = 0, queueTasks = 0, completedTask = 0
 ```
@@ -76,7 +76,7 @@ new ThreadPoolExecutor(2,2,0, TimeUnit.MILLISECONDS, new LinkedBlockingDeque<>()
 - 작업이 들어올때마다 corePoolSize의 크기까지 스레드를 만든다.
 - corePoolSize까지 스레드가 생성되고 나면 이후에는 만들어진 스레드 재사용
 
-```bash
+```shell
 22:11:35.064 [     main] == 작업 수행 중 ==
 22:11:35.064 [     main] [pool=2, active = 2, queueTasks = 2, completedTask = 0
 ```
@@ -88,7 +88,7 @@ new ThreadPoolExecutor(2,2,0, TimeUnit.MILLISECONDS, new LinkedBlockingDeque<>()
 
 ### 스레드 작업완료 → 반납
 
-```bash
+```shell
 22:11:35.064 [pool-1-thread-2] taskB 시작
 22:11:35.064 [pool-1-thread-1] taskA 시작
 22:11:35.168 [pool-1-thread-2] taskB 완료
@@ -106,7 +106,7 @@ new ThreadPoolExecutor(2,2,0, TimeUnit.MILLISECONDS, new LinkedBlockingDeque<>()
 
 ### shutdown
 
-```bash
+```shell
 22:11:38.070 [     main] == shutdown ==
 22:11:38.071 [     main] [pool=0, active = 0, queueTasks = 0, completedTask = 4
 ```
