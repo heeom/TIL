@@ -6,8 +6,7 @@
 |  | Runnable | Callable |
 | --- | --- | --- |
 | 반환 타입 | void run() | V call() |
-| 예외 선언 | 예외 선언 되어 있지 않으므로 자식은 checked 예외를 던질 수 없다 | V call() throws Exception;
-예외 선언 되어 있음 |
+| 예외 선언 | 예외 선언 되어 있지 않으므로 자식은 checked 예외를 던질 수 없다 | V call() throws Exception; 예외 선언 되어 있음 
 
 ```java
 package com.example.thread.executor.future;
