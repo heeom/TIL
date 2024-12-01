@@ -139,7 +139,7 @@ Integer sum2 = executorService.submit(sumTask2).get(); // 2초 대기
     
     ```
 
-    ```java
+    ```Bash
     > Task :FutureCancelMain.main()
     16:11:24.308 [     main] future.state RUNNING
     16:11:24.308 [pool-1-thread-1] 작업중 : 0
@@ -187,7 +187,7 @@ public class FutureExceptionMain {
 }
 ```
 
-```java
+```bash
 > Task :FutureExceptionMain.main()
 16:34:20.569 [pool-1-thread-1] Callable 실행 예외 발생
 16:34:21.549 [     main] future.get() 호출 시도, future.state() : FAILED
