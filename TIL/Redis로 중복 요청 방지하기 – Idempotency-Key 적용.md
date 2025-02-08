@@ -144,4 +144,5 @@ public class IdempotentRequestInterceptorTest {
 - POST_중복_요청_예외발생 : POST 요청인데, 중복 요청일 경우에는 DuplicateRequestException이 발생하며, redis 호출 해야한다.
 
 테스트 결과
+
 ![img.png](img.png)
