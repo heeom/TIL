@@ -17,8 +17,10 @@ def generate_readme():
             continue
         md_files = [f for f in files if f.endswith(".md") and f != "README.md"]
         if md_files:
-            dir_name = os.path.basename(root)
-            lines.append(f"## 📝 {dir_name}")
+            depth = root.count(os.sep) - 1
+            folder_name = os.path.basename(root)
+            header = f"## {'📝 ' if depth == 0 else ''}{folder_name}"
+            lines.append(header)
             for file in sorted(md_files):
                 file_path = os.path.join(root, file).replace("./", "")
                 file_url = f"{BASE_URL}/{quote(file_path)}"
