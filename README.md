@@ -2,6 +2,7 @@
 
 하루 동안 학습한 내용을 정리한 저장소입니다.
 
+## 🗂️ .
 
 ## 🗂️ TDD
 
@@ -12,6 +13,7 @@
     - [ch05. JUnit 기초.md](https://github.com/heeom/TIL/blob/base/TDD/%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%A3%BC%EB%8F%84%20%EA%B0%9C%EB%B0%9C%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/ch05.%20JUnit%20%EA%B8%B0%EC%B4%88.md)
     - [ch06. 테스트 코드의 구성.md](https://github.com/heeom/TIL/blob/base/TDD/%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%A3%BC%EB%8F%84%20%EA%B0%9C%EB%B0%9C%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/ch06.%20%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%AE%E1%84%89%E1%85%A5%E1%86%BC.md)
     - [ch07.대역 (Test Double).md](https://github.com/heeom/TIL/blob/base/TDD/%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%A3%BC%EB%8F%84%20%EA%B0%9C%EB%B0%9C%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/ch07.%EB%8C%80%EC%97%AD%20%28Test%20Double%29.md)
+    - [ch08. 테스트 가능한 설계.md](https://github.com/heeom/TIL/blob/base/TDD/%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%A3%BC%EB%8F%84%20%EA%B0%9C%EB%B0%9C%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/ch08.%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%84%A4%EA%B3%84.md)
 
 ## 🗂️ TWIL
   - [Redis로 중복 요청 방지하기 – Idempotency-Key 적용.md](https://github.com/heeom/TIL/blob/base/TWIL/Redis%EB%A1%9C%20%EC%A4%91%EB%B3%B5%20%EC%9A%94%EC%B2%AD%20%EB%B0%A9%EC%A7%80%ED%95%98%EA%B8%B0%20%E2%80%93%20Idempotency-Key%20%EC%A0%81%EC%9A%A9.md)
