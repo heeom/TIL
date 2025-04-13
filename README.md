@@ -2,6 +2,7 @@
 
 하루 동안 학습한 내용을 정리한 저장소입니다.
 
+
 ## 🗂️ TDD
 
   - ### 📝 테스트주도 개발 시작하기
@@ -12,14 +13,14 @@
     - [ch06. 테스트 코드의 구성.md](https://github.com/heeom/TIL/blob/base/TDD/%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%A3%BC%EB%8F%84%20%EA%B0%9C%EB%B0%9C%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/ch06.%20%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%AE%E1%84%89%E1%85%A5%E1%86%BC.md)
     - [ch07.대역 (Test Double).md](https://github.com/heeom/TIL/blob/base/TDD/%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%A3%BC%EB%8F%84%20%EA%B0%9C%EB%B0%9C%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/ch07.%EB%8C%80%EC%97%AD%20%28Test%20Double%29.md)
 
-## 🗂️ TIL
-  - [Redis로 중복 요청 방지하기 – Idempotency-Key 적용.md](https://github.com/heeom/TIL/blob/base/TIL/Redis%EB%A1%9C%20%EC%A4%91%EB%B3%B5%20%EC%9A%94%EC%B2%AD%20%EB%B0%A9%EC%A7%80%ED%95%98%EA%B8%B0%20%E2%80%93%20Idempotency-Key%20%EC%A0%81%EC%9A%A9.md)
-  - [Spring @Transactional - 프록시 기반 동작방식과 예외상황재현 테스트.md](https://github.com/heeom/TIL/blob/base/TIL/Spring%20%40Transactional%20-%20%ED%94%84%EB%A1%9D%EC%8B%9C%20%EA%B8%B0%EB%B0%98%20%EB%8F%99%EC%9E%91%EB%B0%A9%EC%8B%9D%EA%B3%BC%20%EC%98%88%EC%99%B8%EC%83%81%ED%99%A9%EC%9E%AC%ED%98%84%20%ED%85%8C%EC%8A%A4%ED%8A%B8.md)
+## 🗂️ TWIL
+  - [Redis로 중복 요청 방지하기 – Idempotency-Key 적용.md](https://github.com/heeom/TIL/blob/base/TWIL/Redis%EB%A1%9C%20%EC%A4%91%EB%B3%B5%20%EC%9A%94%EC%B2%AD%20%EB%B0%A9%EC%A7%80%ED%95%98%EA%B8%B0%20%E2%80%93%20Idempotency-Key%20%EC%A0%81%EC%9A%A9.md)
+  - [Spring @Transactional - 프록시 기반 동작방식과 예외상황재현 테스트.md](https://github.com/heeom/TIL/blob/base/TWIL/Spring%20%40Transactional%20-%20%ED%94%84%EB%A1%9D%EC%8B%9C%20%EA%B8%B0%EB%B0%98%20%EB%8F%99%EC%9E%91%EB%B0%A9%EC%8B%9D%EA%B3%BC%20%EC%98%88%EC%99%B8%EC%83%81%ED%99%A9%EC%9E%AC%ED%98%84%20%ED%85%8C%EC%8A%A4%ED%8A%B8.md)
 
   - ### 📝 동시성문제해결
-    - [동시성문제해결 - DB를 사용하는 방법.md](https://github.com/heeom/TIL/blob/base/TIL/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20-%20DB%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95.md)
-    - [동시성문제해결 - Java의 Synchronized 사용.md](https://github.com/heeom/TIL/blob/base/TIL/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20-%20Java%EC%9D%98%20Synchronized%20%EC%82%AC%EC%9A%A9.md)
-    - [동시성문제해결 - Redis.md](https://github.com/heeom/TIL/blob/base/TIL/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20-%20Redis.md)
+    - [동시성문제해결 - DB를 사용하는 방법.md](https://github.com/heeom/TIL/blob/base/TWIL/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20-%20DB%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95.md)
+    - [동시성문제해결 - Java의 Synchronized 사용.md](https://github.com/heeom/TIL/blob/base/TWIL/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20-%20Java%EC%9D%98%20Synchronized%20%EC%82%AC%EC%9A%A9.md)
+    - [동시성문제해결 - Redis.md](https://github.com/heeom/TIL/blob/base/TWIL/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20-%20Redis.md)
 
 ## 🗂️ algorithm
   - [Deque.md](https://github.com/heeom/TIL/blob/base/algorithm/Deque.md)
@@ -32,6 +33,19 @@
 
 ## 🗂️ aws
   - [Web Application with EC2.md](https://github.com/heeom/TIL/blob/base/aws/Web%20Application%20with%20EC2.md)
+
+## 🗂️ books
+
+  - ### 📝 이펙티브 자바
+    - [10장 예외.md](https://github.com/heeom/TIL/blob/base/books/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%20%EC%9E%90%EB%B0%94/10%EC%9E%A5%20%EC%98%88%EC%99%B8.md)
+    - [11장 동시성.md](https://github.com/heeom/TIL/blob/base/books/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%20%EC%9E%90%EB%B0%94/11%EC%9E%A5%20%EB%8F%99%EC%8B%9C%EC%84%B1.md)
+
+  - ### 📝 클린 아키텍처
+    - [01. 계층형 아키텍처의 문제는 무엇일까.md](https://github.com/heeom/TIL/blob/base/books/%ED%81%B4%EB%A6%B0%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98/01.%20%EA%B3%84%EC%B8%B5%ED%98%95%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%98%20%EB%AC%B8%EC%A0%9C%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C.md)
+    - [02. 의존성 역전하기.md](https://github.com/heeom/TIL/blob/base/books/%ED%81%B4%EB%A6%B0%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98/02.%20%EC%9D%98%EC%A1%B4%EC%84%B1%20%EC%97%AD%EC%A0%84%ED%95%98%EA%B8%B0.md)
+
+  - ### 📝 클린코드
+    - [오류처리하기.md](https://github.com/heeom/TIL/blob/base/books/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C/%EC%98%A4%EB%A5%98%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0.md)
 
 ## 🗂️ cloud
   - [localstack.md](https://github.com/heeom/TIL/blob/base/cloud/localstack.md)
@@ -72,21 +86,3 @@
 ## 🗂️ spring
   - [Lombok @RequiredArgsConstructor으로 생성된 생성자와 @Qualifier를 함께 사용할 때 발생하는 문제.md](https://github.com/heeom/TIL/blob/base/spring/Lombok%20%40RequiredArgsConstructor%EC%9C%BC%EB%A1%9C%20%EC%83%9D%EC%84%B1%EB%90%9C%20%EC%83%9D%EC%84%B1%EC%9E%90%EC%99%80%20%40Qualifier%EB%A5%BC%20%ED%95%A8%EA%BB%98%20%EC%82%AC%EC%9A%A9%ED%95%A0%20%EB%95%8C%20%EB%B0%9C%EC%83%9D%ED%95%98%EB%8A%94%20%EB%AC%B8%EC%A0%9C.md)
   - [gradle build와 bootJar.md](https://github.com/heeom/TIL/blob/base/spring/gradle%20build%EC%99%80%20bootJar.md)
-
-## 🗂️ 동시성문제해결
-  - [동시성문제해결 - DB를 사용하는 방법.md](https://github.com/heeom/TIL/blob/base/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20-%20DB%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95.md)
-  - [동시성문제해결 - Java의 Synchronized 사용.md](https://github.com/heeom/TIL/blob/base/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20-%20Java%EC%9D%98%20Synchronized%20%EC%82%AC%EC%9A%A9.md)
-  - [동시성문제해결 - Redis.md](https://github.com/heeom/TIL/blob/base/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20-%20Redis.md)
-
-## 🗂️ 책책책
-
-  - ### 📝 이펙티브 자바
-    - [10장 예외.md](https://github.com/heeom/TIL/blob/base/%EC%B1%85%EC%B1%85%EC%B1%85/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%20%EC%9E%90%EB%B0%94/10%EC%9E%A5%20%EC%98%88%EC%99%B8.md)
-    - [11장 동시성.md](https://github.com/heeom/TIL/blob/base/%EC%B1%85%EC%B1%85%EC%B1%85/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%20%EC%9E%90%EB%B0%94/11%EC%9E%A5%20%EB%8F%99%EC%8B%9C%EC%84%B1.md)
-
-  - ### 📝 클린 아키텍처
-    - [01. 계층형 아키텍처의 문제는 무엇일까.md](https://github.com/heeom/TIL/blob/base/%EC%B1%85%EC%B1%85%EC%B1%85/%ED%81%B4%EB%A6%B0%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98/01.%20%EA%B3%84%EC%B8%B5%ED%98%95%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%98%20%EB%AC%B8%EC%A0%9C%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C.md)
-    - [02. 의존성 역전하기.md](https://github.com/heeom/TIL/blob/base/%EC%B1%85%EC%B1%85%EC%B1%85/%ED%81%B4%EB%A6%B0%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98/02.%20%EC%9D%98%EC%A1%B4%EC%84%B1%20%EC%97%AD%EC%A0%84%ED%95%98%EA%B8%B0.md)
-
-  - ### 📝 클린코드
-    - [오류처리하기.md](https://github.com/heeom/TIL/blob/base/%EC%B1%85%EC%B1%85%EC%B1%85/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C/%EC%98%A4%EB%A5%98%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0.md)
