@@ -228,8 +228,7 @@ Hibernate:
 
 ### 해결방법은?
 
-- 하위 메서드에서 트랜잭션을 제거하여 상위 트랜잭션에 병합시키기
-- `TargetService.doSomething` 메서드에 `@Transactional` 을 제거하고 CallerSerivce에서 시작한 트랜잭션에 병합시켰다.
+- TargetService.doSomething 메서드에서 @Transactional 어노테이션을 제거하면 된다.
 
 ```java
     @Override
