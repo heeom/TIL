@@ -117,7 +117,6 @@ public class RestControllerAdviceTest {
 - Spring boot 가 실행될 때 bean으로 등록된다
 
 ```java
-// WebMvcConfigurationSupport.java
 @Bean
 public ExceptionHandlerExceptionResolver exceptionHandlerExceptionResolver() {
     ExceptionHandlerExceptionResolver resolver = new ExceptionHandlerExceptionResolver();
@@ -143,11 +142,12 @@ private void initExceptionHandlerAdviceCache() {
 			return;
 		}
 
-		
+		// @ControllerAdvice 어노테이션이 붙은 클래스들을 찾아서 bean으로 등록한다.
 		List<ControllerAdviceBean> adviceBeans = ControllerAdviceBean.findAnnotatedBeans(getApplicationContext());
 		...
 }
 
+// ControllerAdviceBean.findAnnotatedBeans(getApplicationContext()); 내부로 들어가보면
 public static List<ControllerAdviceBean> findAnnotatedBeans(ApplicationContext context) {
         ListableBeanFactory beanFactory = context;
         if (context instanceof ConfigurableApplicationContext cac) {
@@ -155,9 +155,9 @@ public static List<ControllerAdviceBean> findAnnotatedBeans(ApplicationContext c
         }
 
         List<ControllerAdviceBean> adviceBeans = new ArrayList();
-
-				// @ControllerAdvice가 붙은 클래스들을 advice bean으로 등록
+        
         for(String name : BeanFactoryUtils.beanNamesForTypeIncludingAncestors(beanFactory, Object.class)) {
+            // 여기서 @ControllerAdvice가 붙은 클래스들을 advice bean으로 등록한다.
             if (!ScopedProxyUtils.isScopedTarget(name)) {
                 ControllerAdvice controllerAdvice = (ControllerAdvice)beanFactory.findAnnotationOnBean(name, ControllerAdvice.class);
                 if (controllerAdvice != null) {
@@ -175,7 +175,7 @@ public static List<ControllerAdviceBean> findAnnotatedBeans(ApplicationContext c
 ![img_5.png](img_5.png)
 
 
-### 예외처리 시 Advice 적용 여부 확인
+### 예외발생 시 Advice 적용 여부 확인
 
 ```java
 // org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#doResolveHandlerMethodException
@@ -195,10 +195,11 @@ public static List<ControllerAdviceBean> findAnnotatedBeans(ApplicationContext c
 		...
 		
 		// org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver
-		// #getExceptionHandlerMethod 내부
+		
+        // getExceptionHandlerMethod(handlerMethod, exception, webRequest); 내부
 		for (Map.Entry<ControllerAdviceBean, ExceptionHandlerMethodResolver> entry : this.exceptionHandlerAdviceCache.entrySet()) {
 			ControllerAdviceBean advice = entry.getKey();
-			// handlerType 에 적용할 수 있는 advice인지 체크
+			// handlerType 에 적용할 수 있는 advice인지 검사한다
 			if (advice.isApplicableToBeanType(handlerType)) {
 			...
 ```
