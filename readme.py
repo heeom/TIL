@@ -29,7 +29,9 @@ def generate_readme():
         for file in sorted(md_files):
             file_path = os.path.join(root, file).replace("./", "")
             file_url = f"{BASE_URL}/{quote(file_path)}"
-            lines.append(f"{indent}  - [{file}]({file_url})")
+            filename_without_ext = os.path.splitext(file)[0]
+            lines.append(f"{indent}  - [{filename_without_ext}]({file_url})")
+
         if md_files or depth == 0:
             lines.append("")
 
