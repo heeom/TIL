@@ -88,4 +88,6 @@
 ## 🗂️ spring
   - [@RestControllerAdvice의 annotations 속성으로 특정 컨트롤러에만 예외 핸들러 적용하기](https://github.com/heeom/TIL/blob/base/spring/%40RestControllerAdvice%EC%9D%98%20annotations%20%EC%86%8D%EC%84%B1%EC%9C%BC%EB%A1%9C%20%ED%8A%B9%EC%A0%95%20%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC%EC%97%90%EB%A7%8C%20%EC%98%88%EC%99%B8%20%ED%95%B8%EB%93%A4%EB%9F%AC%20%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0.md)
   - [Lombok @RequiredArgsConstructor으로 생성된 생성자와 @Qualifier를 함께 사용할 때 발생하는 문제](https://github.com/heeom/TIL/blob/base/spring/Lombok%20%40RequiredArgsConstructor%EC%9C%BC%EB%A1%9C%20%EC%83%9D%EC%84%B1%EB%90%9C%20%EC%83%9D%EC%84%B1%EC%9E%90%EC%99%80%20%40Qualifier%EB%A5%BC%20%ED%95%A8%EA%BB%98%20%EC%82%AC%EC%9A%A9%ED%95%A0%20%EB%95%8C%20%EB%B0%9C%EC%83%9D%ED%95%98%EB%8A%94%20%EB%AC%B8%EC%A0%9C.md)
+  - [Spring Boot 3 기준 클래스 로딩 흐름](https://github.com/heeom/TIL/blob/base/spring/Spring%20Boot%203%20%EA%B8%B0%EC%A4%80%20%ED%81%B4%EB%9E%98%EC%8A%A4%20%EB%A1%9C%EB%94%A9%20%ED%9D%90%EB%A6%84.md)
+  - [Spring MVC의 Servlet 구조와 동작 흐름](https://github.com/heeom/TIL/blob/base/spring/Spring%20MVC%EC%9D%98%20Servlet%20%EA%B5%AC%EC%A1%B0%EC%99%80%20%EB%8F%99%EC%9E%91%20%ED%9D%90%EB%A6%84.md)
   - [gradle build와 bootJar](https://github.com/heeom/TIL/blob/base/spring/gradle%20build%EC%99%80%20bootJar.md)
