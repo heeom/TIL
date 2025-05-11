@@ -44,7 +44,7 @@ spring-boot-starter-0.0.1-SNAPSHOT.jar
 ...
 
 // 2. Spring Boot 런처 클래스 로딩 (org.springframework.boot.loader.launch.*)
-ExecutableArchiveLauncher, JarLauncher 등이 실행되며, 내부적으로 JarUrlClassLoader를 생성하여 BOOT-INF/classes/와 BOOT-INF/lib/*.jar 경로를 classpath에 등록한다.
+// ExecutableArchiveLauncher, JarLauncher 등이 실행되며, 내부적으로 JarUrlClassLoader를 생성하여 BOOT-INF/classes/와 BOOT-INF/lib/*.jar 경로를 classpath에 등록한다.
 nfo][class,load] org.springframework.boot.loader.launch.ExecutableArchiveLauncher source: file:/Users/spring-boot-start/build/libs/spring-boot-start-0.0.1-SNAPSHOT.jar
 [0.046s][info][class,load] org.springframework.boot.loader.launch.JarLauncher source: file:/Users/spring-boot-start/build/libs/spring-boot-start-0.0.1-SNAPSHOT.jar
 [0.046s][info][class,load] org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader source: file:/Users/spring-boot-start/build/libs/spring-boot-start-0.0.1-SNAPSHOT.jar
@@ -56,7 +56,7 @@ nfo][class,load] org.springframework.boot.loader.launch.ExecutableArchiveLaunche
 [0.094s][info][class,load] com.example.springbootstart.SpringBootStartApplication source: jar:nested:/Users/spring-boot-start/build/libs/spring-boot-start-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/
 
 // 4. 외부 라이브러리 클래스 로딩 (BOOT-INF/lib/*.jar)
-// - 애플리케이션 클래스 로딩 이후 외부 라이브러리가 로딩된다.
+// 애플리케이션 클래스 로딩 이후 외부 라이브러리가 로딩된다.
 [0.109s][info][class,load] org.springframework.boot.SpringApplication source: jar:nested:/Users/spring-boot-start/build/libs/spring-boot-start-0.0.1-SNAPSHOT.jar/!BOOT-INF/lib/spring-boot-3.4.2.jar!/
 ```
 
