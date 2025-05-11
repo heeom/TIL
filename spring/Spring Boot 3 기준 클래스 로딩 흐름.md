@@ -30,7 +30,7 @@ spring-boot-starter-0.0.1-SNAPSHOT.jar
 3. 외부라이브러리 클래스 : BOOT-INF/lib/*.jar
     - Gradle/Maven 의존성으로 포함된 외부 라이브러리 JAR들이 순차적으로 로딩된다.
     - SpringBoot의 LanchedClassLoader가 로드한다.
-4. /webapp/WEB-INF/classes
+- cf) /webapp/WEB-INF/classes
     - War 파일 배포 방식에서만 사용된다.
 
 ### Spring boot 3 기준 예시
