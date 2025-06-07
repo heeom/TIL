@@ -80,7 +80,6 @@
 
 ## 🗂️ jpa
   - [@Modifying](https://github.com/heeom/TIL/blob/base/jpa/%40Modifying.md)
-  - [JPA 더티체킹 사용시 주의할점 : READ_COMMITTED 격리 수준에서 발생한 동시성문제 해결하기](https://github.com/heeom/TIL/blob/base/jpa/JPA%20%EB%8D%94%ED%8B%B0%EC%B2%B4%ED%82%B9%20%EC%82%AC%EC%9A%A9%EC%8B%9C%20%EC%A3%BC%EC%9D%98%ED%95%A0%EC%A0%90%20%3A%20READ_COMMITTED%20%EA%B2%A9%EB%A6%AC%20%EC%88%98%EC%A4%80%EC%97%90%EC%84%9C%20%EB%B0%9C%EC%83%9D%ED%95%9C%20%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C%20%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0.md)
 
 ## 🗂️ mysql
   - [multi-column-index](https://github.com/heeom/TIL/blob/base/mysql/multi-column-index.md)
@@ -92,3 +91,5 @@
   - [Spring Boot 3 기준 클래스 로딩 흐름](https://github.com/heeom/TIL/blob/base/spring/Spring%20Boot%203%20%EA%B8%B0%EC%A4%80%20%ED%81%B4%EB%9E%98%EC%8A%A4%20%EB%A1%9C%EB%94%A9%20%ED%9D%90%EB%A6%84.md)
   - [Spring MVC의 Servlet 구조와 동작 흐름](https://github.com/heeom/TIL/blob/base/spring/Spring%20MVC%EC%9D%98%20Servlet%20%EA%B5%AC%EC%A1%B0%EC%99%80%20%EB%8F%99%EC%9E%91%20%ED%9D%90%EB%A6%84.md)
   - [gradle build와 bootJar](https://github.com/heeom/TIL/blob/base/spring/gradle%20build%EC%99%80%20bootJar.md)
+  - [기본생성자에 대하여 : 1. Jackson을 사용한 Deserialize시 기본생성자는 왜 필수일까? - 2 ](https://github.com/heeom/TIL/blob/base/spring/%EA%B8%B0%EB%B3%B8%EC%83%9D%EC%84%B1%EC%9E%90%EC%97%90%20%EB%8C%80%ED%95%98%EC%97%AC%20%3A%201.%20Jackson%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%9C%20Deserialize%EC%8B%9C%20%EA%B8%B0%EB%B3%B8%EC%83%9D%EC%84%B1%EC%9E%90%EB%8A%94%20%EC%99%9C%20%ED%95%84%EC%88%98%EC%9D%BC%EA%B9%8C%3F%20-%202%20.md)
+  - [기본생성자에 대하여 : 1. Jackson을 사용한 Deserialize시 기본생성자는 왜 필수일까? ](https://github.com/heeom/TIL/blob/base/spring/%EA%B8%B0%EB%B3%B8%EC%83%9D%EC%84%B1%EC%9E%90%EC%97%90%20%EB%8C%80%ED%95%98%EC%97%AC%20%3A%201.%20Jackson%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%9C%20Deserialize%EC%8B%9C%20%EA%B8%B0%EB%B3%B8%EC%83%9D%EC%84%B1%EC%9E%90%EB%8A%94%20%EC%99%9C%20%ED%95%84%EC%88%98%EC%9D%BC%EA%B9%8C%3F%20.md)
